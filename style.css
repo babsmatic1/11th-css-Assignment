@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding-top: 15px;
+    /* border-bottom: 1px solid black; */
+}
+
+nav{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > li, .menu > a {
+    display: inline-block;
+}
+
+.menu a{
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 10px 1.5rem;
+}
+
+.line{
+    width: 80%;
+}
+
+i{
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: grey;
+}
+
+
+.container{
+    margin-left: 80px;
+    display: flex;
+    height: 80vh;
+    width: 1400px;
+}
+
+.txt{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.child1{
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 600px;
+    height: 75vh;
+}
+
+.child2{
+    margin-top: 45px;
+    margin-left: 40px;
+    width: 600px;
+    height: 65vh;
+}
+
+.child1 img{
+    margin-top: 30px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.list {
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.but{
+    color: orange;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.hone{
+    color: orangered;
+}
+
+.htwo{
+    font-weight: 700;
+    font: 120px;
+}
+
+.price{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.discount{
+    font-size: 15px;
+    margin-left: 30px;
+    color: orangered;
+    outline: none;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(241, 199, 147);
+}
+
+.button{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.zero{
+    font-size: 35px;
+    outline: none;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.cart{
+    font-size: 35px;
+    outline: none;
+    border: none;
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.cart i{
+    color: white;
+}
